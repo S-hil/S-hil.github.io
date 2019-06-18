@@ -239,6 +239,125 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/18/undefined  tle/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Sahil Bansal">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Welcome to my World">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/06/18/undefined  tle/" itemprop="url">Deploying keras model to Production on Google Cloud</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-06-18T16:20:44+09:00">
+                2019-06-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/01/02/undefined  tle/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1842,145 +1961,6 @@ epoch      trn_loss   val_loss
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/09/27/undefined  tle/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Sahil Bansal">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Welcome to my World">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/09/27/undefined  tle/" itemprop="url">Life Hacks:Phone/Email Extractor</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-09-27T21:24:52+09:00">
-                2018-09-27
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>You are working for a company and you are asked to find the Phone Number and Email address from a long Excel file. You start scrolling the document which goes on endlessly. You know you will have to do lots of overtime to finish the work. You look at the phone to see your son’s photo. You won’t be spending family time due to the Workload. But, Suddenly you have an idea.</p>
-<p>Python makes it really easy to do this task using Regular Expressions. We are going to try to use Regular Expression.<br><em>Note: Reproducibility is the most important thing kept in mind while writing the program.</em></p>
-<p>We import the following packages</p>
-<ol>
-<li><em>re</em> - Regular Expression Package</li>
-<li><em>pyperclip</em> - It lets us work with clipboard</li>
-</ol>
-<p>Steps:</p>
-<ol>
-<li>Write Regular Expression syntax</li>
-<li>Paste the text using pyperclip</li>
-<li>Print the matched result</li>
-</ol>
-<p>Regular Expression are very useful but they are not without their own downsides. It is important to set the syntax of ReX(Regular Expression) right or the whole thing would go wrong.</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">phoneRegex = re.compile(<span class="string">r'''(</span></span><br><span class="line"><span class="string">(\d&#123;3&#125;|\(\d&#123;3&#125;\))        #Area Code</span></span><br><span class="line"><span class="string">(\s|-|\.)                #Separator</span></span><br><span class="line"><span class="string">(\d&#123;4&#125;|\d&#123;3&#125;)            #middle 3 or 4 digits</span></span><br><span class="line"><span class="string">(\s|-|\.)                #Separator</span></span><br><span class="line"><span class="string">(\d&#123;4&#125;)                  #Last 4 digits</span></span><br><span class="line"><span class="string">)'''</span>,re.X)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">emailRegex=re.compile(<span class="string">r'''(</span></span><br><span class="line"><span class="string">[a-zA-Z0-9.+_%-]+            #Username</span></span><br><span class="line"><span class="string">@                            #@symbol</span></span><br><span class="line"><span class="string">[a-zA-Z0-9.-]+               #domain name</span></span><br><span class="line"><span class="string">(\.[a-zA-Z]&#123;2,4&#125;)            #dot something(most likely com)</span></span><br><span class="line"><span class="string">)'''</span>,re.X)</span><br></pre></td></tr></table></figure>
-<p>Next step can be modified in several ways. The most general way would be to copy the text and use pyperclip to access the clipboard.</p>
-<p>Final step would be to print the result in desired way.</p>
-<p><strong>Thoughts</strong> : I definitely think it would be useful to me. I can modify it and make my web crawler. i can think of many scenario where it would be useful.</p>
-<p>The whole program is written below for reference.</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## Phone number and email extractor</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> pyperclip,re</span><br><span class="line"></span><br><span class="line"><span class="comment"># Pyperclip is used to paste the contents in the clipboard</span></span><br><span class="line"><span class="comment"># print(pyperclip.paste())</span></span><br><span class="line"></span><br><span class="line">phoneRegex = re.compile(<span class="string">r'''(</span></span><br><span class="line"><span class="string">(\d&#123;3&#125;|\(\d&#123;3&#125;\))        #Area Code</span></span><br><span class="line"><span class="string">(\s|-|\.)                #Separator</span></span><br><span class="line"><span class="string">(\d&#123;4&#125;|\d&#123;3&#125;)            #middle 3 or 4 digits</span></span><br><span class="line"><span class="string">(\s|-|\.)                #Separator</span></span><br><span class="line"><span class="string">(\d&#123;4&#125;)                  #Last 4 digits</span></span><br><span class="line"><span class="string">)'''</span>,re.X)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># print(phoneRegex.findall("easfgd 435-324-4323 anf 535-2452-3424 "))</span></span><br><span class="line"></span><br><span class="line">emailRegex=re.compile(<span class="string">r'''(</span></span><br><span class="line"><span class="string">[a-zA-Z0-9.+_%-]+            #Username</span></span><br><span class="line"><span class="string">@                            #@symbol</span></span><br><span class="line"><span class="string">[a-zA-Z0-9.-]+               #domain name</span></span><br><span class="line"><span class="string">(\.[a-zA-Z]&#123;2,4&#125;)            #dot something(most likely com)</span></span><br><span class="line"><span class="string">)'''</span>,re.X)</span><br><span class="line"></span><br><span class="line"><span class="comment"># print(emailRegex.findall("email is fdsdgr@gmai.com"))</span></span><br><span class="line"></span><br><span class="line">text=str(pyperclip.paste())</span><br><span class="line">matches=[]</span><br><span class="line"><span class="keyword">for</span> groups <span class="keyword">in</span> phoneRegex.findall(text):</span><br><span class="line">   phoneNum=<span class="string">'-'</span>.join([groups[<span class="number">1</span>],groups[<span class="number">3</span>],groups[<span class="number">5</span>]])</span><br><span class="line">   matches.append(<span class="string">'Phone numbers'</span>)</span><br><span class="line">   matches.append(phoneNum)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> groups <span class="keyword">in</span> emailRegex.findall(text):</span><br><span class="line">   matches.append(<span class="string">"Emails"</span>)</span><br><span class="line">   matches.append(groups[<span class="number">0</span>])</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> match <span class="keyword">in</span> matches:</span><br><span class="line">   print(match)</span><br></pre></td></tr></table></figure>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -2031,7 +2011,7 @@ epoch      trn_loss   val_loss
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">13</span>
+                  <span class="site-state-item-count">14</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
