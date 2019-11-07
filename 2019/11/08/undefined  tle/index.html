@@ -79,14 +79,19 @@
 
 
 
+<meta name="description" content="Punctuating passages is a difficult task for Neural Network. The task gets even more challenging when it is a spoken transcript in a language like Japanese. Unlike English, There is no space between w">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Punctuating Japanese Transcripts using BiLSTM-CRF">
+<meta property="og:title" content="Punctuating Japanese Transcripts using MeCAB Tokenizer and BiLSTM-CRF">
 <meta property="og:url" content="http://yoursite.com/2019/11/08/undefined  tle/index.html">
 <meta property="og:site_name" content="Welcome to my World">
+<meta property="og:description" content="Punctuating passages is a difficult task for Neural Network. The task gets even more challenging when it is a spoken transcript in a language like Japanese. Unlike English, There is no space between w">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-11-07T15:21:07.962Z">
+<meta property="og:image" content="http://yoursite.com/asset/abcde.png">
+<meta property="og:updated_time" content="2019-11-07T15:56:43.747Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Punctuating Japanese Transcripts using BiLSTM-CRF">
+<meta name="twitter:title" content="Punctuating Japanese Transcripts using MeCAB Tokenizer and BiLSTM-CRF">
+<meta name="twitter:description" content="Punctuating passages is a difficult task for Neural Network. The task gets even more challenging when it is a spoken transcript in a language like Japanese. Unlike English, There is no space between w">
+<meta name="twitter:image" content="http://yoursite.com/asset/abcde.png">
 
 
 
@@ -122,7 +127,7 @@
 
 
 
-  <title>Punctuating Japanese Transcripts using BiLSTM-CRF | Welcome to my World</title>
+  <title>Punctuating Japanese Transcripts using MeCAB Tokenizer and BiLSTM-CRF | Welcome to my World</title>
   
 
 
@@ -256,7 +261,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Punctuating Japanese Transcripts using BiLSTM-CRF</h1>
+          <h1 class="post-title" itemprop="name headline">Punctuating Japanese Transcripts using MeCAB Tokenizer and BiLSTM-CRF</h1>
         
 
         <div class="post-meta">
@@ -306,7 +311,17 @@
       
 
       
-        
+        <p>Punctuating passages is a difficult task for Neural Network. The task gets even more challenging when it is a spoken transcript in a language like Japanese. Unlike English, There is no space between words for Japanese.<br>To oversimplify the task these are the 3 main steps required foe this task. I got the best results using BiLSTM CRF model.  </p>
+<ol>
+<li><p>We first need to tokenize the words using a Tokenizer.</p>
+</li>
+<li><p>Then design the Input Sequence with relevant context.</p>
+</li>
+<li><p>Do some feature Engineering and make the prediction.</p>
+</li>
+</ol>
+<p><img src="/asset/abcde.png" alt="Punctuation"></p>
+
       
     </div>
     
